@@ -63,7 +63,7 @@ for more details.
 ## Version
 
 - Docker version: `1.9`
-- Splunk Universal Forwarder: `6.3.1`
+- Splunk Universal Forwarder: `6.5.0`
 
 ## Installation
 
