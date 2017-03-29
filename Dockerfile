@@ -1,7 +1,7 @@
 FROM yugeshdocker1/docker-splunk-forwarder:latest
 MAINTAINER Yugesh Avadhanula <yugesh.a@tcs.com>
 
-ENV DOCKER_VERSION 1.12.6
+ENV DOCKER_VERSION 1.10.3
 ENV SPLUNK_BACKUP_DOCKER_APP ${SPLUNK_BACKUP_DEFAULT_ETC}/etc/apps/docker
 
 RUN apt-get update \
