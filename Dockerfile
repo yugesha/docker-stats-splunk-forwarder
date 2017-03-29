@@ -1,7 +1,7 @@
-FROM outcoldman/splunk:6.5.0-forwarder
-MAINTAINER Denis Gladkikh <docker-stats-splunk-forwarder@denis.gladkikh.email>
+FROM yugeshdocker1/docker-splunk-forwarder:latest
+MAINTAINER Yugesh Avadhanula <yugesh.a@tcs.com>
 
-ENV DOCKER_VERSION 1.9.0
+ENV DOCKER_VERSION 1.12.6
 ENV SPLUNK_BACKUP_DOCKER_APP ${SPLUNK_BACKUP_DEFAULT_ETC}/etc/apps/docker
 
 RUN apt-get update \
